@@ -10,5 +10,3 @@ The main simulation file is `Main_fun.m`. To run the simulation, open this file 
 ## Parameters
 You can adjust parameters such as grid size, aspect ratio, obstacle size, and angle of attack through the user interface (GUI).
 
-## License
-Licensed under the Imperial College London License. See `LICENSE` for more details.
