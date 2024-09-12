@@ -93,7 +93,7 @@ In 2D, the Laplacian of a scalar field `f(x, y)` is defined as:
 
             ∇²f = ∂²f/∂x² + ∂²f/∂y²
 
-          In the simulation, the Laplacian operator is applied to the velocity fields `u` and `v` to model viscous diffusion, making the fluid flow more realistic by reducing sharp changes in velocity.
+             In the simulation, the Laplacian operator is applied to the velocity fields `u` and `v` to model viscous diffusion, making the fluid flow more realistic by reducing sharp changes in velocity.
 Since the simulation operates on a **discrete grid**, the Laplacian must be approximated using finite differences. The discrete form of the Laplacian at a point `(i, j)` in the grid is computed using neighboring points as follows:
 
 
