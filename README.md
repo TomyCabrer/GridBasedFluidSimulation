@@ -103,23 +103,30 @@ Since the simulation operates on a **discrete grid**, the Laplacian must be appr
         - The **Jacobi Method** is an iterative algorithm used to solve systems of linear equations. It is particularly useful in fluid dynamics simulations for solving the **Poisson equation** that arises when calculating the pressure field. The pressure is used to enforce the incompressibility condition (divergence-free velocity field) in the fluid.
 
         - The Jacobi method is based on decomposing a linear system `Ax = b` into an iterative update rule that refines the guess for `x` at each step. Specifically, for each element of the solution vector `x`, the update rule is:
-\[
+        - 
+**\[
 x_i^{(k+1)} = \frac{1}{A_{ii}} \left( b_i - \sum_{j \neq i} A_{ij} x_j^{(k)} \right)
-\]
+\]**
+
 In the context of your fluid simulation, `x` corresponds to the pressure field, and the method is used to iteratively compute the pressure at each grid point.
 
         - In fluid simulations governed by the **Navier-Stokes equations**, the **pressure Poisson equation** must be solved to ensure that the velocity field remains **incompressible** (i.e., the divergence of the velocity field is zero):
-\[
+        
+**\[
 \nabla \cdot \mathbf{u} = 0
-\]
+\]**
+
 This condition is enforced by solving the following Poisson equation for pressure `p`:
-\[
+
+**\[
 \nabla^2 p = \text{divergence}(\mathbf{u})
-\]
+\]**
+
 The Jacobi method is used to solve this equation in an iterative manner. Given an initial guess for the pressure field, it iteratively updates the pressure at each grid point until the solution converges.In my code The algorithm updates the pressure at each point `(i, j)` on the grid using values from the neighboring grid points. For a 2D grid, the update rule is:
-\[
+
+**\[
 p_{i,j}^{(k+1)} = \frac{1}{4} \left( p_{i+1,j}^{(k)} + p_{i-1,j}^{(k)} + p_{i,j+1}^{(k)} + p_{i,j-1}^{(k)} - \text{rhs}_{i,j} \right)
-\]
+\]**
 
 
           
