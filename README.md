@@ -24,8 +24,8 @@ This project is a 2D fluid simulation that models incompressible flow around obs
 1. **Clone the Repository**
    To get started, clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/FluidSimulation.git
-   cd FluidSimulation
+   git clone https://github.com/TomyCabrer/ParticleBasedFluidSimulation
+   
 
 2. **Open in MATLAB**
    Open MATLAB and navigate to the folder where you cloned the repository.
