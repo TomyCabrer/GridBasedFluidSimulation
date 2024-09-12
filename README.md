@@ -70,4 +70,30 @@ The simulation includes a user-friendly graphical interface that allows you to c
 
 8. **Start Simulation Button**
    - **Function**: Runs the fluid simulation with the current parameters set in the GUI.
+  
+---
+
+   **How the Code Works**
+
+   **Grid Initialization** 
+   -   A grid of size 's x (s * ar)' is created where 's' is the grid size, and 'ar' is the aspect ratio (the ratio of width to height). The grid represents the spatial domain in which the fluid flow will be simulated.
+
+   **Initialize Fields**
+   -   The pressure 'p' and velocity fields 'u' (horizontal) and 'v' (vertical) are initialized as zero matrices of size '(s x (s * ar))'. These fields will be updated as the simulation proceeds.
+
+   **Obstacle Definition**
+   -   The obstacle is defined as a boolean matrix where each 'true' value represents a point that is part of the obstacle. The obstacle shape is derived from the airfoil coordinates, which are adjusted by the Angle of Attack (AoA) and displacement values.
+
+   **Main Simulation Loop**
+   -   The simulation runs in a loop, updating the velocity and pressure fields in each iteration. The loop continues as long as the figure window is open.
+
+   -   **Viscous Effects (Laplacian Operator)**
+        -   The Laplacian operator (∇²) is a second-order differential operator that measures how a function (in this case, the velocity field) differs from its average value in the surrounding points. In the **Navier-Stokes equations**, the Laplacian term `ν∇²u` represents **viscous forces**. The kinematic viscosity `ν` controls how fast momentum diffuses across the fluid. Higher viscosity leads to smoother flow and slower changes in velocity.
+In 2D, the Laplacian of a scalar field `f(x, y)` is defined as: ∇²f = ∂²f/∂x² + ∂²f/∂y²
+In the simulation, the Laplacian operator is applied to the velocity fields `u` and `v` to model viscous diffusion, making the fluid flow more realistic by reducing sharp changes in velocity.
+Since the simulation operates on a **discrete grid**, the Laplacian must be approximated using finite differences. The discrete form of the Laplacian at a point `(i, j)` in the grid is computed using neighboring points as follows:
+
+
+
+
 
