@@ -66,7 +66,7 @@ The simulation includes a user-friendly graphical interface that allows you to c
    - **Usage**: Choose the size of the obstacle to see how different-sized objects affect the fluid flow.
 
 7. **Simulation Preview**
-   Displays a real-time preview of the simulation environment, reflecting any changes you make to the parameters. As you modify parameters in the GUI, the preview will update accordingly, giving you immediate feedback     on how the changes will affect the simulation.
+   -   Displays a real-time preview of the simulation environment, reflecting any changes you make to the parameters. As you modify parameters in the GUI, the preview will update accordingly, giving you immediate feedback on how the changes will affect the simulation.
 
 8. **Start Simulation Button**
    - **Function**: Runs the fluid simulation with the current parameters set in the GUI.
