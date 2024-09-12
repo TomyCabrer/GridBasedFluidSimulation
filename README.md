@@ -98,8 +98,8 @@ In 2D, the Laplacian of a scalar field `f(x, y)` is defined as:
 - 2. **Obstacle Boundary Conditions**
   - Ensure no fluid flow through the obstacle by setting velocities and pressure to zero inside the obstacle.
 
-- 3. **Solve Pressure (Jacobi Method)**
-  - The **Jacobi Method** is an iterative algorithm used to solve systems of linear equations, commonly applied in fluid simulations to solve the **Poisson equation** for the pressure field. This pressure field is essential to enforce fluid incompressibility (divergence-free velocity). The method iteratively refines the pressure at each grid point based on neighboring values, updating the solution until it converges. In my code, the Jacobi method updates the pressure at each point (i, j) on the grid using the values from neighboring grid points to approximate the correct pressure field.
+   -  3. **Solve Pressure (Jacobi Method)**
+       -   The **Jacobi Method** is an iterative algorithm used to solve systems of linear equations, commonly applied in fluid simulations to solve the **Poisson equation** for the pressure field. This pressure field is essential to enforce fluid incompressibility (divergence-free velocity). The method iteratively refines the pressure at each grid point based on neighboring values, updating the solution until it converges. In my code, the Jacobi method updates the pressure at each point (i, j) on the grid using the values from neighboring grid points to approximate the correct pressure field.
   
 - 4. **Velocity Update**
   - Use pressure gradients to update the velocity field to maintain incompressibility.
