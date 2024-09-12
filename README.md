@@ -9,6 +9,10 @@ This project is a 2D fluid simulation that models incompressible flow around obs
 - **Customizable Parameters**: Users can modify the grid size, obstacle position, and more.
 - **Viscous Effects**: Adds viscosity to simulate realistic fluid behavior.
 
+## Image from Simulation
+
+<img width="1419" alt="Screenshot 2024-07-11 at 01 47 17" src="https://github.com/user-attachments/assets/e6e32adf-3ce8-4e66-a0a0-5a41ff17d2c8">
+
 ---
 
 ## Table of Contents
