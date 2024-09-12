@@ -98,11 +98,14 @@ In 2D, the Laplacian of a scalar field `f(x, y)` is defined as:
    - 2. **Obstacle Boundary Conditions**
        -   Ensure no fluid flow through the obstacle by setting velocities and pressure to zero inside the obstacle.
 
+
    - 3. **Solve Pressure (Jacobi Method)**
        -   The **Jacobi Method** is an iterative algorithm used to solve systems of linear equations, commonly applied in fluid simulations to solve the **Poisson equation** for the pressure field. This pressure field is essential to enforce fluid incompressibility (divergence-free velocity). The method iteratively refines the pressure at each grid point based on neighboring values, updating the solution until it converges. In my code, the Jacobi method updates the pressure at each point (i, j) on the grid using the values from neighboring grid points to approximate the correct pressure field.
+
        
    - 4. **Velocity Update**
        -   Use pressure gradients to update the velocity field to maintain incompressibility.
+
 
    - 5. **Runge-Kutta Advection**
        -   In fluid dynamics, **advection** refers to the transport of fluid properties (such as velocity, temperature, or particles) by the flow. It describes how quantities are carried by the motion of the fluid. In this simulation, particles are advected through the velocity field, and the velocity field itself is advected over time. Accurately modeling advection is essential for capturing the realistic movement of fluid and particles. The **4th-order Runge-Kutta method (RK4)** is used in the simulation to solve the advection equations. This method strikes a balance between accuracy and computational efficiency, making it suitable for fluid dynamics simulations. In the code, the RK4 method is applied to advect both particles and the velocity field, ensuring accurate particle motion and proper propagation of the velocity across the simulation grid.
