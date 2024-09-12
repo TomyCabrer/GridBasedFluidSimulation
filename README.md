@@ -13,9 +13,8 @@ This project is a 2D fluid simulation that models incompressible flow around obs
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Usage](#usage)
-3. [GUI and Parameters](#gui-and-parameters)
-4. [How the Code Works](#how-the-code-works)
+2. [GUI and Parameters](#gui-and-parameters)
+3. [How the Code Works](#how-the-code-works)
 
 
 ---
@@ -37,7 +36,7 @@ This project is a 2D fluid simulation that models incompressible flow around obs
 
 ---
 
-   ## GUI Overview
+   ## GUI and Parameters
 
 The simulation includes a user-friendly graphical interface that allows you to customize the behavior of the simulation. Here’s a breakdown of the key GUI components:
 
