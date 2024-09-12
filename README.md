@@ -73,7 +73,7 @@ The simulation includes a user-friendly graphical interface that allows you to c
   
 ---
 
-   **How the Code Works**
+   ## How the Code Works
 
    **Grid Initialization** 
    -   A grid of size 's x (s * ar)' is created where 's' is the grid size, and 'ar' is the aspect ratio (the ratio of width to height). The grid represents the spatial domain in which the fluid flow will be simulated.
