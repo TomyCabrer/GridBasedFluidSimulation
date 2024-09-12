@@ -12,6 +12,8 @@ This project is a 2D fluid simulation that models incompressible flow around obs
 ## Image from Simulation
 
 <img width="1419" alt="Screenshot 2024-07-11 at 01 47 17" src="https://github.com/user-attachments/assets/e6e32adf-3ce8-4e66-a0a0-5a41ff17d2c8">
+<img width="1415" alt="Screenshot 2024-09-12 at 20 43 19" src="https://github.com/user-attachments/assets/85481203-7ac5-4e4d-8220-37d92ec711d6">
+
 
 ---
 
