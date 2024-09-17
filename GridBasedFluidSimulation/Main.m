@@ -1,6 +1,5 @@
 % Imperial College London Student Lisence
 % Copy right (c) Bartolome Cabrer Falomir
-
 clear
 Geometry % Initialize geometry parameters
 createUI % Create the user interface (UI) for simulation control
@@ -58,15 +57,3 @@ p=sim_results.p; % Pressure field
 % colorbar;
 % plot(xx,yy,'o',color='k',linewidth=1,MarkerSize=4) 
 % xlabel('X');
-% ylabel('Y');
-% title('Contour Plot of Horizontal Velocity');
-% hold off
-% figure
-% hold on
-% contourf(X,Y,v)
-% colorbar;
-% plot(xx,yy,'o',color='k',linewidth=1,MarkerSize=4) 
-% xlabel('X');
-% ylabel('Y');
-title('Contour Plot of Vertical Velocity');
-

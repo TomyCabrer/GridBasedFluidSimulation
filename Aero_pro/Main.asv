@@ -17,30 +17,32 @@ p=sim_results.p; % Pressure field
 
 
 % Possible figures
-
-% figure
-% surf(X,Y,u)
-% figure
-% quiver(X,Y,u,v)
-% quiver(X, Y, u, v, 'AutoScale', 'on', 'AutoScaleFactor', 2, 'Color', 'b', 'LineWidth', 1.5);
-% quiver(X, Y, u, v, 'MaxHeadSize', 0.5, 'LineWidth', 1.5);
-% xlabel('X');
-% ylabel('Y');
-% title('Quiver Plot of Velocity Field (u, v)');
-% figure
-% streamslice(X,Y,u,v)
-% xlabel('X');
-% ylabel('Y');
-% title('Streamslice Plot of Velocity Field (u, v)');
-% figure
-% hold on
-% contourf(X,Y,p)
-% %plot(xx, yy, 'ok', 'MarkerSize', 4)
-% colormap('jet');
-% colorbar;
-% xlabel('X');
-% ylabel('Y');
-% title('Contour Plot of Pressure (Pa)');
-% figure
-% contourf(X,Y,v)
-% colorbar;
+% 
+figure
+surf(X,Y,u)
+figure
+quiver(X,Y,u,v)
+quiver(X, Y, u, v, 'AutoScale', 'on', 'AutoScaleFactor', 2, 'Color', 'b', 'LineWidth', 1.5);
+quiver(X, Y, u, v, 'MaxHeadSize', 0.5, 'LineWidth', 1.5);
+xlabel('X');
+ylabel('Y');
+title('Quiver Plot of Velocity Field (u, v)');
+figure
+streamslice(X,Y,u,v)
+xlabel('X');
+ylabel('Y');
+title('Streamslice Plot of Velocity Field (u, v)');
+figure
+hold on
+contourf(X,Y,p)
+colormap('jet');
+colorbar;
+xlabel('X');
+ylabel('Y');
+title('Contour Plot of Pressure (Pa)');
+figure
+contourf(X,Y,v)
+colorbar;
+colormap('jet');
+xlabel('X');
+ylabel('Y');
