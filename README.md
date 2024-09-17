@@ -13,7 +13,7 @@ This project is a 2D fluid simulation that models incompressible flow around obs
 
 <img width="1419" alt="Screenshot 2024-07-11 at 01 47 17" src="https://github.com/user-attachments/assets/e6e32adf-3ce8-4e66-a0a0-5a41ff17d2c8">
 <img width="1415" alt="Screenshot 2024-09-12 at 20 43 19" src="https://github.com/user-attachments/assets/85481203-7ac5-4e4d-8220-37d92ec711d6">
-![PressurePlot](https://github.com/user-attachments/assets/bab5b2ec-aaef-4dd7-9862-954687a84f5c)
+<img width="1387" alt="Screenshot 2024-09-17 at 18 27 40" src="https://github.com/user-attachments/assets/6ba8a605-ac76-4711-8b78-c1fbcd13e795">
 
 ---
 
