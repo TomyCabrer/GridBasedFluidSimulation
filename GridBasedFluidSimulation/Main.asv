@@ -27,7 +27,7 @@ v=sim_results.v; % Velocity field in the y-direction
 p=sim_results.p; % Pressure field
 
 
-% Figures ready to be plotted by user
+% Fi
 % 
 % figure
 % surf(X,Y,u)
