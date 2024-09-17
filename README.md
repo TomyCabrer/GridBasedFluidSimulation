@@ -13,7 +13,12 @@ This project is a 2D fluid simulation that models incompressible flow around obs
 
 <img width="1419" alt="Screenshot 2024-07-11 at 01 47 17" src="https://github.com/user-attachments/assets/e6e32adf-3ce8-4e66-a0a0-5a41ff17d2c8">
 <img width="1415" alt="Screenshot 2024-09-12 at 20 43 19" src="https://github.com/user-attachments/assets/85481203-7ac5-4e4d-8220-37d92ec711d6">
+
+Results from simulation with grrid size=60, aspect ratio=4, AoA=25, vertical displacement= 30, horizontal displacement=10.
 <img width="1387" alt="Screenshot 2024-09-17 at 18 27 40" src="https://github.com/user-attachments/assets/6ba8a605-ac76-4711-8b78-c1fbcd13e795">
+<img width="1384" alt="Screenshot 2024-09-17 at 18 38 11" src="https://github.com/user-attachments/assets/66ffe1d0-4afb-4134-9c57-ea0521c5a908">
+<img width="1400" alt="Screenshot 2024-09-17 at 18 39 02" src="https://github.com/user-attachments/assets/afdee3e3-c88f-468b-ad7c-3bf2e94542aa">
+
 
 ---
 
@@ -52,11 +57,11 @@ The simulation includes a user-friendly graphical interface that allows you to c
 
 2. **Disp Up Slider**
    - **Function**: Change airfoil vertical position within the grid.
-   - **Usage**: Use the slider to move the obstacle up from 0 to the maximum grid height.
+   - **Usage**: Use the slider to move the obstacle up from 0 to 50.
 
 3. **Disp Right Slider**
    - **Function**: Change airfoil horizontal position within the grid.
-   - **Usage**: Use the slider to move the object horizontally across the simulation grid from 0 to the maximum grid width. 
+   - **Usage**: Use the slider to move the object horizontally across the simulation grid from 0 to 20. 
 
 4. **Grid Size Dropdown**
    - **Function**: Selects the number of grid points used in the simulation representing the spatial domain.
