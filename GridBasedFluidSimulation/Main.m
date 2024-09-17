@@ -4,7 +4,7 @@ clear
 Geometry % Initialize geometry parameters
 createUI % Create the user interface (UI) for simulation control
 
-global sim_params % Declare global variables to share parameters across functions
+global sim_params % Declare variables for graphs
 X=sim_params.X; % X-coordinates grid based on simulation parameters
 Y=sim_params.Y; % Y-coordinates grid based on simulation parameters
 
@@ -20,7 +20,7 @@ xx=[];
         yy=[yy;ob(i,:).*i];  % Y-coordinates of the obstacle
     end
 
-% Declare another global variable to store results from the simulation
+% Declare variables for graphs
 global sim_results
 u=sim_results.u; % Velocity field in the x-direction
 v=sim_results.v; % Velocity field in the y-direction
