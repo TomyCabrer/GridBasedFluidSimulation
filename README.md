@@ -35,7 +35,7 @@ Results from simulation with grrid size=60, aspect ratio=4, AoA=25, vertical dis
 1. **Clone the Repository**
    To get started, clone the repository to your local machine:
    ```bash
-   git clone https://github.com/TomyCabrer/ParticleBasedFluidSimulation
+   git clone https://github.com/TomyCabrer/GridBasedFluidSimulation
    
 
 2. **Open in MATLAB**
