@@ -116,6 +116,13 @@ In 2D, the Laplacian of a scalar field `f(x, y)` is defined as:
 5. **Runge-Kutta Advection**
   - In fluid dynamics, **advection** refers to the transport of fluid properties (such as velocity, temperature, or particles) by the flow. It describes how quantities are carried by the motion of the fluid. In this simulation, particles are advected through the velocity field, and the velocity field itself is advected over time. Accurately modeling advection is essential for capturing the realistic movement of fluid and particles. The **4th-order Runge-Kutta method (RK4)** is used in the simulation to solve the advection equations. This method strikes a balance between accuracy and computational efficiency, making it suitable for fluid dynamics simulations. In the code, the RK4 method is applied to advect both particles and the velocity field, ensuring accurate particle motion and proper propagation of the velocity across the simulation grid.
 
+    ## Next steps
+
+  - Get Cd and Cl values from data the simulation.
+  - Improve GUI with more foil type and other obejcts as well as other parameters.
+  - Experiment with more accurate advection schemes, such as Semi-Lagrangian methods, which are known to be more stable in fluid simulations.
+  - Validate your simulation against known fluid dynamics problems.
+
 
 
 
