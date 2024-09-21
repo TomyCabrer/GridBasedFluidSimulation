@@ -19,7 +19,6 @@ Results from simulation with grrid size=60, aspect ratio=4, AoA=25, vertical dis
 <img width="1384" alt="Screenshot 2024-09-17 at 18 38 11" src="https://github.com/user-attachments/assets/66ffe1d0-4afb-4134-9c57-ea0521c5a908">
 <img width="1400" alt="Screenshot 2024-09-17 at 18 39 02" src="https://github.com/user-attachments/assets/afdee3e3-c88f-468b-ad7c-3bf2e94542aa">
 
-
 ---
 
 ## Table of Contents
