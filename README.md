@@ -121,7 +121,7 @@ In 2D, the Laplacian of a scalar field `f(x, y)` is defined as:
   - Get Cd and Cl values from data the simulation.
   - Improve GUI with more foil type and other obejcts as well as other parameters.
   - Experiment with more accurate advection schemes, such as Semi-Lagrangian methods, which are known to be more stable in fluid simulations.
-  - Validate your simulation against known fluid dynamics problems.
+  - Validate simulation against known fluid dynamics problems.
 
 
 
